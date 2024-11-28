@@ -1,0 +1,87 @@
+header{
+width: 100%;
+height: 50%;
+background-color:rgba(71, 68, 68, 1);
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+body{
+    margin: 0%;
+
+}
+
+.title{
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;   
+}
+
+
+.options_container{
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color:rgba(71, 68, 68, 1) ;
+    width: 52%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.concluidas{
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: rgba(45, 237, 109, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+.andamento{
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: rgba(45, 128, 237, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 10px
+}
+
+.prioridades{
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color:rgba(237, 64, 45, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 10px
+}
+
+.segundo_plano{
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color:rgba(237, 176, 45, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 10px
+}
+
+.adição_de_tarefas{
+    display: flex;
+    border-radius: 100%;
+    background-color: rgba(45, 128, 237, 1);
+    color:white;
+    font-size:xx-large;
+    height: 50px;
+    width: 50px;
+    border-color:white;
+    margin-left: 10px;
+    
+}
