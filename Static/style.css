@@ -85,3 +85,54 @@ body{
     margin-left: 10px;
     
 }
+
+.tarefa_adicionada{
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    margin-left: 390px;
+    margin-top: 20px;
+    background-color: rgba(45, 128, 237, 50%);
+    width: 621px;
+    height: 454px;
+    border-radius: 10px;
+    
+}
+
+.Title_Task{
+    height: 51px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(45, 128, 237, 1);
+    border-radius: 10px;
+    color: white;
+
+
+}
+
+.Description_Task{
+    height: 110px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(45, 128, 237, 1);
+    color: white;
+    border-radius: 10px;    
+}
+
+.alta_prioridade{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(237, 64, 45, 0.5);
+    border-radius: 15%;
+    background-color: #ffffff00;
+}
+
+.baixa_prioridade{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(237, 176, 45, 0.5);
+    border-radius: 15%;
+    background-color: #ffffff00;
+}
