@@ -96,27 +96,34 @@ body{
     width: 621px;
     height: 454px;
     border-radius: 10px;
+    display: none;
     
 }
 
 .Title_Task{
+    padding: 05px;
     height: 51px;
     width: 100%;
     margin-top: 20px;
     background-color: rgba(45, 128, 237, 1);
     border-radius: 10px;
     color: white;
-
-
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Description_Task{
+    word-break: break-word;
+    white-space: normal;
+    padding: 5px;
     height: 110px;
     width: 100%;
     margin-top: 10px;
     background-color: rgba(45, 128, 237, 1);
     color: white;
-    border-radius: 10px;    
+    border-radius: 10px;   
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 .alta_prioridade{
@@ -125,14 +132,38 @@ body{
     height: 20px;
     border: 2px solid rgba(237, 64, 45, 0.5);
     border-radius: 15%;
-    background-color: #ffffff00;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.alta_prioridade:checked{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(237, 64, 45, 0.5);
+    border-radius: 15%;
+    background-color:rgba(45, 237, 109, 1);
+    
 }
 
 .baixa_prioridade{
+    margin-top: 10px;
     appearance: none;
     width: 20px;
     height: 20px;
     border: 2px solid rgba(237, 176, 45, 0.5);
     border-radius: 15%;
-    background-color: #ffffff00;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.baixa_prioridade:checked{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(237, 176, 45, 0.5);
+    border-radius: 15%;
+    background-color:rgba(45, 237, 109, 1);
+}
+
+::placeholder{
+    color: rgb(255, 255, 255, 0.7);
 }
