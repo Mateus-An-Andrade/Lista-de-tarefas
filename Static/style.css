@@ -14,15 +14,6 @@ body{
     
 }
 
-#Body_Blur {
-    filter: blur(0px); /* Começa sem desfoque */
-}
-
-.corpo_completo{
-    filter: blur(5px);
-    
-}
-
 .title{
     text-align: center;
     font-family: sans-serif;
@@ -191,7 +182,7 @@ body{
 .icon_confered{ 
     width: 200px;    
     height: 200px;
-    top:29%;
+    top:39%;
     left: 42%;
     display: none;
     position: fixed;
@@ -201,7 +192,7 @@ body{
 
 .tarefa_concluida{
     text-align: center;
-    top:50%;
+    top:60%;
     left: 35%;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size:xx-large;

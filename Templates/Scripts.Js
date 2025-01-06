@@ -46,24 +46,31 @@ btn_registration_task.addEventListener ('click', function (){
 
     setTimeout(() => {
         console.log("Primeiro Timer Acionado")
-        const Body_Blur = document.getElementById ('Body_Blur');
-   
+        const task_adicioned_box = document.getElementById('task_adicioned_box');
+            task_adicioned_box.style.display= 'none';
+
         document.getElementById('Body_Blur').style.pointerEvents = "none"; // bloqueio de interação
 
-        Body_Blur.classList.add('corpo_completo');
-    
-        document.getElementById ('confered').style.display = 'block';
-        document.getElementById ('message_regs').style.display = 'block';
+        document.getElementById ('confered').style.display = 'block';  //simbolo de sucesso
+        document.getElementById ('message_regs').style.display = 'block';  // mensagem de sucesso
+
+
     }, 1000);
 
         setTimeout(() => {
             console.log("Segundo Timer Acionado")
-            Body_Blur.classList.remove('corpo_completo');
-            document.getElementById('Body_Blur').style.pointerEvents = "auto";
-            document.getElementById ('confered').style.display = 'none';
-            document.getElementById ('message_regs').style.display = 'none'; 
-        }, 2000);
-        
-  
-   
+    
+            document.getElementById ('Body_Blur').style.pointerEvents = "auto"; // retorno da interação
+            document.getElementById ('confered').style.display = 'none'; //saída do simbolo
+            document.getElementById ('message_regs').style.display = 'none';  // saída da mensagem
+            document.getElementById ('Task_title').value='';//daqui para baixo: limpeza dos campos
+            document.getElementById ('Descrep_Task').value= '';    
+            const radios = document.querySelectorAll ('input[type="radio"][name="priority"]');
+            function clearRadios (){
+                radios.forEach(radio => {
+                    radio.checked = false;
+                  });
+                }
+                clearRadios ()
+        }, 4000);
 })  
